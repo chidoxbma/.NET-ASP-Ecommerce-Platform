@@ -3,20 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\myapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\myapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\myapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\myapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\areas\\client\\views\\produit\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\areas\\client\\views\\produit\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\areas\\client\\views\\produit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\areas\\client\\views\\produit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\views\\auth\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\views\\auth\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\myapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\myapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\myapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\myapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\areas\\admin\\pages\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -37,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\areas\\admin\\pages\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\areas\\admin\\pages\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\areas\\client\\views\\produit\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\areas\\client\\views\\produit\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\areas\\admin\\pages\\categories\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,24 +139,12 @@
       "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\areas\\client\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\areas\\client\\controllers\\commandecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\areas\\client\\controllers\\commandecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\areas\\client\\controllers\\paniercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\areas\\client\\controllers\\paniercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\areas\\client\\views\\commande\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -139,10 +179,6 @@
       "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\areas\\client\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\views\\auth\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\views\\auth\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -171,10 +207,6 @@
       "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -193,22 +225,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\models\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\models\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|solutionrelative:myapp\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8495696-776F-DF62-4486-C5C1C6F08BD3}|myApp\\myApp.csproj|c:\\users\\next laptop\\source\\repos\\myapp\\.net-asp-ecommerce-platform\\myapp\\areas\\client\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -259,13 +275,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "myApp",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\myApp.csproj",
-              "RelativeDocumentMoniker": "myApp\\myApp.csproj",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\myApp.csproj",
-              "RelativeToolTip": "myApp\\myApp.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-24T08:38:43.448Z",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "myApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "myApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAowO8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-22T20:55:30.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\Auth\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Views\\Auth\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\Auth\\AccessDenied.cshtml",
+              "RelativeToolTip": "myApp\\Views\\Auth\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T19:42:16.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "myApp\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T20:52:48.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "myApp\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "myApp\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAewJwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T18:19:19.246Z",
               "EditorCaption": ""
             },
             {
@@ -276,49 +332,157 @@
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\Views\\Produit\\Index.cshtml",
               "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Views\\Produit\\Index.cshtml",
               "RelativeToolTip": "myApp\\Areas\\Client\\Views\\Produit\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwEIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-22T19:58:23.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Index.cshtml",
-              "RelativeToolTip": "myApp\\Areas\\Admin\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T19:10:58.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Create.cshtml",
-              "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Categories\\Create.cshtml",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Create.cshtml",
-              "RelativeToolTip": "myApp\\Areas\\Admin\\Pages\\Categories\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T19:11:15.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Edit.cshtml",
-              "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Categories\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Edit.cshtml",
-              "RelativeToolTip": "myApp\\Areas\\Admin\\Pages\\Categories\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T19:11:25.118Z"
+              "WhenOpened": "2026-04-22T19:58:23.624Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Views\\Produit\\Details.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Areas\\Client\\Views\\Produit\\Details.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Views\\Produit\\Details.cshtml",
+              "RelativeToolTip": "myApp\\Areas\\Client\\Views\\Produit\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T20:12:25.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "myApp\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T19:49:48.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "myApp\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T19:10:15.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\appsettings.json",
+              "RelativeDocumentMoniker": "myApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\appsettings.json",
+              "RelativeToolTip": "myApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-24T18:41:33.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "myApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-24T18:42:06.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "myApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-24T18:42:12.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "myApp\\Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "myApp\\Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-24T18:38:12.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Index.cshtml",
+              "RelativeToolTip": "myApp\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T21:16:06.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Error.cshtml",
+              "RelativeToolTip": "myApp\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T13:02:59.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "myApp\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T13:02:57.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "myApp\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T13:02:56.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "myApp.csproj",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\myApp.csproj",
               "RelativeDocumentMoniker": "myApp\\myApp.csproj",
@@ -330,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\_ViewImports.cshtml",
@@ -342,19 +506,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "myApp\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "myApp\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T18:19:19.246Z"
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Categories\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "myApp\\Areas\\Admin\\Pages\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T19:11:25.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Create.cshtml",
+              "RelativeToolTip": "myApp\\Areas\\Admin\\Pages\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T19:11:15.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Index.cshtml",
+              "RelativeToolTip": "myApp\\Areas\\Admin\\Pages\\Index.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAIBJwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T19:10:58.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "myApp",
+              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\myApp.csproj",
+              "RelativeDocumentMoniker": "myApp\\myApp.csproj",
+              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\myApp.csproj",
+              "RelativeToolTip": "myApp\\myApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-24T08:38:43.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Products\\Delete.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Products\\Delete.cshtml",
@@ -366,19 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Views\\Produit\\Details.cshtml",
-              "RelativeDocumentMoniker": "myApp\\Areas\\Client\\Views\\Produit\\Details.cshtml",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Views\\Produit\\Details.cshtml",
-              "RelativeToolTip": "myApp\\Areas\\Client\\Views\\Produit\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-22T20:12:25.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Categories\\Delete.cshtml.cs",
@@ -390,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Products\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Products\\Edit.cshtml.cs",
@@ -402,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Products\\Edit.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Products\\Edit.cshtml",
@@ -414,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 28,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Products\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Products\\Create.cshtml.cs",
@@ -426,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 30,
               "Title": "Produit.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Models\\Produit.cs",
               "RelativeDocumentMoniker": "myApp\\Models\\Produit.cs",
@@ -438,19 +627,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Products\\Index.cshtml",
               "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Products\\Index.cshtml",
               "RelativeToolTip": "myApp\\Areas\\Admin\\Pages\\Products\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAIBJwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T19:11:42.031Z"
+              "WhenOpened": "2026-04-23T19:11:42.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Products\\Create.cshtml",
@@ -462,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Products\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Products\\Delete.cshtml.cs",
@@ -474,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 63,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Products\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Products\\Index.cshtml.cs",
@@ -486,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Index.cshtml.cs",
@@ -498,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 61,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Categories\\Edit.cshtml.cs",
@@ -510,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 62,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Delete.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Categories\\Delete.cshtml",
@@ -522,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 60,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Categories\\Create.cshtml.cs",
@@ -534,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 64,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\_ViewStart.cshtml",
@@ -546,19 +736,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 58,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Categories\\Index.cshtml",
               "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Index.cshtml",
               "RelativeToolTip": "myApp\\Areas\\Admin\\Pages\\Categories\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAIBJwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T19:11:07.736Z"
+              "WhenOpened": "2026-04-23T19:11:07.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 59,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Admin\\Pages\\Categories\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Admin\\Pages\\Categories\\Index.cshtml.cs",
@@ -570,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 35,
               "Title": "PanierController.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Controllers\\PanierController.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\Controllers\\PanierController.cs",
@@ -582,7 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 34,
               "Title": "CommandeController.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Controllers\\CommandeController.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\Controllers\\CommandeController.cs",
@@ -594,19 +785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "myApp\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "myApp\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-22T20:55:30.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 32,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "myApp\\Pages\\Shared\\_LoginPartial.cshtml",
@@ -618,7 +797,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 33,
               "Title": "CheckoutViewModel.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\ViewModels\\CheckoutViewModel.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\ViewModels\\CheckoutViewModel.cs",
@@ -630,7 +809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Views\\Panier\\Index.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\Views\\Panier\\Index.cshtml",
@@ -642,31 +821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "myApp\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "myApp\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAABRwAUAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-22T20:52:48.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "myApp\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Index.cshtml",
-              "RelativeToolTip": "myApp\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-22T21:16:06.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 38,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Shared\\Components\\CartCount\\Default.cshtml",
               "RelativeDocumentMoniker": "myApp\\Pages\\Shared\\Components\\CartCount\\Default.cshtml",
@@ -678,7 +833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 39,
               "Title": "CartCountViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\ViewComponents\\CartCountViewComponent.cs",
               "RelativeDocumentMoniker": "myApp\\ViewComponents\\CartCountViewComponent.cs",
@@ -690,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Views\\Commande\\Checkout.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\Views\\Commande\\Checkout.cshtml",
@@ -702,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 40,
               "Title": "MesCommandes.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Views\\Commande\\MesCommandes.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\Views\\Commande\\MesCommandes.cshtml",
@@ -714,7 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 41,
               "Title": "Confirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Views\\Commande\\Confirmation.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\Views\\Commande\\Confirmation.cshtml",
@@ -726,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 42,
               "Title": "PanierIndexViewModel.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\ViewModels\\PanierIndexViewModel.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\ViewModels\\PanierIndexViewModel.cs",
@@ -738,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 46,
               "Title": "Commande.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Models\\Commande.cs",
               "RelativeDocumentMoniker": "myApp\\Models\\Commande.cs",
@@ -750,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 45,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "myApp\\Data\\ApplicationDbContext.cs",
@@ -762,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 43,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\Views\\_ViewImports.cshtml",
@@ -774,19 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "AccessDenied.cshtml",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\Auth\\AccessDenied.cshtml",
-              "RelativeDocumentMoniker": "myApp\\Views\\Auth\\AccessDenied.cshtml",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\Auth\\AccessDenied.cshtml",
-              "RelativeToolTip": "myApp\\Views\\Auth\\AccessDenied.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-22T19:42:16.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 44,
               "Title": "Utilisateur.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Models\\Utilisateur.cs",
               "RelativeDocumentMoniker": "myApp\\Models\\Utilisateur.cs",
@@ -798,7 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 57,
               "Title": "ProduitIndexViewModel.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\ViewModels\\ProduitIndexViewModel.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\ViewModels\\ProduitIndexViewModel.cs",
@@ -810,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 47,
               "Title": "Panier.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Models\\Panier.cs",
               "RelativeDocumentMoniker": "myApp\\Models\\Panier.cs",
@@ -822,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 48,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Views\\Commande\\Index.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\Views\\Commande\\Index.cshtml",
@@ -834,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 49,
               "Title": "ProduitController.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Controllers\\ProduitController.cs",
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\Controllers\\ProduitController.cs",
@@ -846,7 +989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 50,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Program.cs",
               "RelativeDocumentMoniker": "myApp\\Program.cs",
@@ -858,7 +1001,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Areas\\Client\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "myApp\\Areas\\Client\\Views\\_ViewStart.cshtml",
@@ -871,30 +1014,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 51,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\Auth\\Register.cshtml",
-              "RelativeDocumentMoniker": "myApp\\Views\\Auth\\Register.cshtml",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\Auth\\Register.cshtml",
-              "RelativeToolTip": "myApp\\Views\\Auth\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-22T19:49:48.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "myApp\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "myApp\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-20T19:10:15.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
               "Title": "00000000000000_CreateIdentitySchema.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
               "RelativeDocumentMoniker": "myApp\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
@@ -906,7 +1025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 52,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "myApp\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -918,7 +1037,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 54,
               "Title": "LigneCommande.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Models\\LigneCommande.cs",
               "RelativeDocumentMoniker": "myApp\\Models\\LigneCommande.cs",
@@ -930,7 +1049,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 53,
               "Title": "LignePanier.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Models\\LignePanier.cs",
               "RelativeDocumentMoniker": "myApp\\Models\\LignePanier.cs",
@@ -942,7 +1061,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 55,
               "Title": "Categorie.cs",
               "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Models\\Categorie.cs",
               "RelativeDocumentMoniker": "myApp\\Models\\Categorie.cs",
@@ -951,42 +1070,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T15:04:24.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "myApp\\Pages\\Error.cshtml",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\Error.cshtml",
-              "RelativeToolTip": "myApp\\Pages\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-20T13:02:59.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "myApp\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "myApp\\Pages\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-20T13:02:57.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "myApp\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "myApp\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-20T13:02:56.093Z"
             }
           ]
         }

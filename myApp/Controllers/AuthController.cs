@@ -76,7 +76,17 @@ namespace myApp.Controllers
                 return View();
             }
 
-            await _userManager.AddToRoleAsync(utilisateur, "Client");
+            var addToRoleResult = await _userManager.AddToRoleAsync(utilisateur, "Client");
+            if (!addToRoleResult.Succeeded)
+            {
+                foreach (var error in addToRoleResult.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+
+                await _userManager.DeleteAsync(utilisateur);
+                return View();
+            }
 
             return RedirectToAction("Login", "Auth");
         }

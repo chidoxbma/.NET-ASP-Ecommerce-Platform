@@ -4,40 +4,43 @@
     ViewData["Title"] = "Products";
 }
 
-<h2 class="mb-3">Products</h2>
+<div class="admin-page-card card p-3 p-md-4">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2 mb-3">
+        <h2 class="mb-0">Products</h2>
+        <a asp-page="Create" class="btn btn-primary">Create New Product</a>
+    </div>
 
-<p>
-    <a asp-page="Create" class="btn btn-primary">Create New Product</a>
-</p>
-
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Image</th>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Category</th>
-            <th style="width:220px;"></th>
-        </tr>
-    </thead>
-    <tbody>
-    @foreach (var item in Model.Produits)
-    {
-        <tr>
-            <td>
-                @if (!string.IsNullOrWhiteSpace(item.ImageUrl))
-                {
-                    <img src="@item.ImageUrl" alt="@item.Nom" style="height: 50px; width: 50px; object-fit: cover;" class="rounded" />
-                }
-            </td>
-            <td>@item.Nom</td>
-            <td>@item.Prix</td>
-            <td>@item.Categorie?.Nom</td>
-            <td>
-                <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
-                <a asp-page="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Delete</a>
-            </td>
-        </tr>
-    }
-    </tbody>
-</table>
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th style="width:220px;"></th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model.Produits)
+            {
+                <tr>
+                    <td>
+                        @if (!string.IsNullOrWhiteSpace(item.ImageUrl))
+                        {
+                            <img src="@item.ImageUrl" alt="@item.Nom" class="rounded admin-thumb" />
+                        }
+                    </td>
+                    <td>@item.Nom</td>
+                    <td>@item.Prix</td>
+                    <td>@item.Categorie?.Nom</td>
+                    <td>
+                        <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
+                        <a asp-page="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>

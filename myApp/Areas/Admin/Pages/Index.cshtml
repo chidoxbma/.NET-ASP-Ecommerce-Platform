@@ -5,14 +5,23 @@
 }
 
 <div class="container">
-    <h2 class="mb-4">Admin Panel</h2>
+    <section class="admin-hero card p-4 p-md-5 mb-4">
+        <h2 class="mb-2">Admin Panel</h2>
+        <p class="mb-0">Manage your catalog with a clean and modern workspace.</p>
+    </section>
 
-    <div class="list-group">
-        <a asp-page="/Categories/Index" class="list-group-item list-group-item-action">
-            Category Management
-        </a>
-        <a asp-page="/Products/Index" class="list-group-item list-group-item-action">
-            Product Management
-        </a>
+    <div class="row g-3 admin-shortcuts">
+        <div class="col-12 col-md-6">
+            <a asp-page="/Categories/Index" class="admin-shortcut-card card p-4 d-block h-100 text-decoration-none">
+                <h5 class="mb-2">Category Management</h5>
+                <p class="mb-0">Create, edit, and organize product categories.</p>
+            </a>
+        </div>
+        <div class="col-12 col-md-6">
+            <a asp-page="/Products/Index" class="admin-shortcut-card card p-4 d-block h-100 text-decoration-none">
+                <h5 class="mb-2">Product Management</h5>
+                <p class="mb-0">Add products, update details, and manage visuals.</p>
+            </a>
+        </div>
     </div>
 </div>

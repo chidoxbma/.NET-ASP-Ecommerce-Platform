@@ -6,16 +6,22 @@
 
 <h2>Détails du produit</h2>
 
-<div>
-    @if (!string.IsNullOrWhiteSpace(Model.ImageUrl))
-    {
-        <p>
-            <img src="@Model.ImageUrl" alt="@Model.Nom" style="max-width: 360px;" class="img-fluid rounded" />
-        </p>
-    }
-    <p><strong>Nom:</strong> @Model.Nom</p>
-    <p><strong>Prix:</strong> @Model.Prix</p>
-    <p><strong>Catégorie:</strong> @Model.Categorie?.Nom</p>
+<div class="card p-3 p-md-4 mb-3 product-details-card">
+    <div class="row g-4 align-items-start">
+        <div class="col-12 col-lg-5">
+            @if (!string.IsNullOrWhiteSpace(Model.ImageUrl))
+            {
+                <div class="product-details-image-wrap">
+                    <img src="@Model.ImageUrl" alt="@Model.Nom" class="img-fluid rounded product-details-image" loading="lazy" />
+                </div>
+            }
+        </div>
+        <div class="col-12 col-lg-7">
+            <p class="mb-2"><strong>Nom:</strong> @Model.Nom</p>
+            <p class="mb-2"><strong>Prix:</strong> @Model.Prix</p>
+            <p class="mb-0"><strong>Catégorie:</strong> @Model.Categorie?.Nom</p>
+        </div>
+    </div>
 </div>
 
 <form method="post" asp-area="Client" asp-controller="Panier" asp-action="Add" class="mb-3">

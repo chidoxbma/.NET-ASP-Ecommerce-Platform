@@ -3,17 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - myApp</title>
+    <title>@ViewData["Title"] - RachidShop</title>
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/myApp.styles.css" asp-append-version="true" />
 </head>
-<body>
+<body class="app-shell">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3 glass-nav">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">myApp</a>
+                <a class="navbar-brand brand-logo" asp-area="" asp-page="/Index">RachidShop</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -27,7 +27,7 @@
                             <a class="nav-link text-dark" asp-area="Client" asp-controller="Produit" asp-action="Index">Products</a>
                         </li>
 
-                        @if (User.Identity?.IsAuthenticated == true && (User.IsInRole("Client") || User.IsInRole("Admin")))
+                        @if (User.Identity?.IsAuthenticated == true)
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="Client" asp-controller="Panier" asp-action="Index">
@@ -75,7 +75,7 @@
         </nav>
     </header>
 
-    <div class="container">
+    <div class="container content-shell">
         @if (TempData["SuccessMessage"] is string successMessage && !string.IsNullOrWhiteSpace(successMessage))
         {
             <div class="alert alert-success alert-dismissible fade show flash-message" role="alert">
@@ -97,9 +97,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted footer-modern">
         <div class="container">
-            &copy; 2026 - myApp - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2026 - RachidShop - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
 
