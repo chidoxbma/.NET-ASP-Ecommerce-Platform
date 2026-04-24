@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PDqCNs5w1Ls=",
+  "dgSpecHash": "G++oBj9M9j4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\myApp\\myApp.csproj",
+  "projectFilePath": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\myApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NEXT LAPTOP\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\NEXT LAPTOP\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\myApp\\myApp.csproj": {}
+    "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\myApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\myApp\\myApp.csproj": {
+    "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\myApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\myApp\\myApp.csproj",
+        "projectUniqueName": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\myApp.csproj",
         "projectName": "myApp",
-        "projectPath": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\myApp\\myApp.csproj",
+        "projectPath": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\myApp.csproj",
         "packagesPath": "C:\\Users\\NEXT LAPTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\myApp\\obj\\",
+        "outputPath": "C:\\Users\\NEXT LAPTOP\\source\\repos\\myApp\\.NET-ASP-Ecommerce-Platform\\myApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
