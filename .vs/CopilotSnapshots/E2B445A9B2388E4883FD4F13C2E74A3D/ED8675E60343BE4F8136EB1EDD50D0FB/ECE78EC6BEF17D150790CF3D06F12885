@@ -1,0 +1,45 @@
+﻿@model myApp.Areas.Client.ViewModels.ProduitIndexViewModel
+
+@{
+    ViewData["Title"] = "Produits";
+}
+
+<h2>Client - Produits</h2>
+
+<form method="get" asp-area="Client" asp-controller="Produit" asp-action="Index" class="mb-3">
+    <label for="categorieId">Categorie</label>
+    <select id="categorieId" name="categorieId" class="form-select" onchange="this.form.submit()">
+        <option value="">Toutes les categories</option>
+        @foreach (var categorie in Model.Categories)
+        {
+            if (Model.SelectedCategorieId == categorie.Id)
+            {
+                <option value="@categorie.Id" selected>@categorie.Nom</option>
+            }
+            else
+            {
+                <option value="@categorie.Id">@categorie.Nom</option>
+            }
+        }
+    </select>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Prix</th>
+            <th>Categorie</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var produit in Model.Produits)
+        {
+            <tr>
+                <td>@produit.Nom</td>
+                <td>@produit.Prix</td>
+                <td>@produit.Categorie?.Nom</td>
+            </tr>
+        }
+    </tbody>
+</table>

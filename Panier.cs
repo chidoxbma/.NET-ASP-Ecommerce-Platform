@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+
+namespace myApp.Models
+{
+    public class Panier
+    {
+        public int Id { get; set; }
+        public int UtilisateurId { get; set; }
+        public DateTime DateCreation { get; set; }
+
+        // Navigation properties
+        public Utilisateur Utilisateur { get; set; }
+        public List<LignePanier> LignePaniers { get; set; }
+    }
+}

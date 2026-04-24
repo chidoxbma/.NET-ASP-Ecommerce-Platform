@@ -1,0 +1,148 @@
+﻿using System.Collections.Generic;
+using System.Security.Claims;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using myApp.Data;
+using myApp.Models;
+
+namespace myApp.Controllers
+{
+    public class AuthController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+        private readonly PasswordHasher<Utilisateur> _passwordHasher = new();
+
+        public AuthController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        [HttpGet]
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Register(
+            string nomComplet,
+            string email,
+            string motDePasse,
+            string adresse,
+            string ville,
+            string telephone)
+        {
+            if (string.IsNullOrWhiteSpace(nomComplet) ||
+                string.IsNullOrWhiteSpace(email) ||
+                string.IsNullOrWhiteSpace(motDePasse))
+            {
+                ModelState.AddModelError(string.Empty, "Nom complet, email, and mot de passe are required.");
+                return View();
+            }
+
+            var normalizedEmail = email.Trim().ToLowerInvariant();
+
+            var emailExists = await _context.Utilisateurs
+                .AnyAsync(u => u.Email == normalizedEmail);
+
+            if (emailExists)
+            {
+                ModelState.AddModelError("Email", "This email is already registered.");
+                return View();
+            }
+
+            var utilisateur = new Utilisateur
+            {
+                NomComplet = nomComplet.Trim(),
+                Email = normalizedEmail,
+                Adresse = adresse?.Trim(),
+                Ville = ville?.Trim(),
+                Telephone = telephone?.Trim(),
+                Role = "Client"
+            };
+
+            utilisateur.MotDePasse = _passwordHasher.HashPassword(utilisateur, motDePasse);
+
+            _context.Utilisateurs.Add(utilisateur);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Login", "Auth");
+        }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            if (User.Identity?.IsAuthenticated == true)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(string email, string motDePasse, string returnUrl = null)
+        {
+            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(motDePasse))
+            {
+                ModelState.AddModelError(string.Empty, "Invalid credentials.");
+                return View();
+            }
+
+            var normalizedEmail = email.Trim().ToLowerInvariant();
+
+            var utilisateur = await _context.Utilisateurs
+                .FirstOrDefaultAsync(u => u.Email == normalizedEmail);
+
+            if (utilisateur is null)
+            {
+                ModelState.AddModelError(string.Empty, "Invalid credentials.");
+                return View();
+            }
+
+            var verifyResult = _passwordHasher.VerifyHashedPassword(
+                utilisateur,
+                utilisateur.MotDePasse,
+                motDePasse);
+
+            if (verifyResult == PasswordVerificationResult.Failed)
+            {
+                ModelState.AddModelError(string.Empty, "Invalid credentials.");
+                return View();
+            }
+
+            var claims = new List<Claim>
+            {
+                new(ClaimTypes.NameIdentifier, utilisateur.Id.ToString()),
+                new(ClaimTypes.Email, utilisateur.Email),
+                new(ClaimTypes.Role, string.IsNullOrWhiteSpace(utilisateur.Role) ? "Client" : utilisateur.Role),
+                new(ClaimTypes.Name, utilisateur.NomComplet ?? utilisateur.Email)
+            };
+
+            var identity = new ClaimsIdentity(claims, IdentityConstants.ApplicationScheme);
+            var principal = new ClaimsPrincipal(identity);
+
+            await HttpContext.SignInAsync(IdentityConstants.ApplicationScheme, principal);
+
+            if (!string.IsNullOrWhiteSpace(returnUrl) && Url.IsLocalUrl(returnUrl))
+            {
+                return LocalRedirect(returnUrl);
+            }
+
+            return RedirectToAction("Index", "Home");
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(IdentityConstants.ApplicationScheme);
+            return RedirectToAction("Index", "Home");
+        }
+    }
+}

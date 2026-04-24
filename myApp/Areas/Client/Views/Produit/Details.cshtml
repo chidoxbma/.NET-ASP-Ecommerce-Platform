@@ -1,0 +1,32 @@
+@model myApp.Models.Produit
+
+@{
+    ViewData["Title"] = "Détails produit";
+}
+
+<h2>Détails du produit</h2>
+
+<div>
+    @if (!string.IsNullOrWhiteSpace(Model.ImageUrl))
+    {
+        <p>
+            <img src="@Model.ImageUrl" alt="@Model.Nom" style="max-width: 360px;" class="img-fluid rounded" />
+        </p>
+    }
+    <p><strong>Nom:</strong> @Model.Nom</p>
+    <p><strong>Prix:</strong> @Model.Prix</p>
+    <p><strong>Catégorie:</strong> @Model.Categorie?.Nom</p>
+</div>
+
+<form method="post" asp-area="Client" asp-controller="Panier" asp-action="Add" class="mb-3">
+    <input type="hidden" name="produitId" value="@Model.Id" />
+
+    <div class="mb-2">
+        <label for="quantite">Quantity</label>
+        <input id="quantite" name="quantite" type="number" min="1" value="1" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add to Cart</button>
+</form>
+
+<a asp-area="Client" asp-controller="Produit" asp-action="Index" class="btn btn-secondary">Back to Products</a>

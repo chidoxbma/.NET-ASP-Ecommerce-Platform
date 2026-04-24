@@ -1,0 +1,14 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center mt-5">
+    <h1 class="display-4">Welcome to myApp!</h1>
+    <p class="lead">Check out our latest products.</p>
+
+    <a asp-area="Client" asp-controller="Produit" asp-action="Index" class="btn btn-primary btn-lg mt-3">
+        Browse Products
+    </a>
+</div>

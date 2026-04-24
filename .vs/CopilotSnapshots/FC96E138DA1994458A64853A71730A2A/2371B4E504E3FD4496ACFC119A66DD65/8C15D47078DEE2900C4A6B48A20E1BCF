@@ -1,0 +1,51 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using myApp.Data;
+using myApp.Models;
+
+namespace myApp.Areas.Admin.Pages.Products;
+
+[Authorize(Roles = "Admin")]
+public class DeleteModel : PageModel
+{
+    private readonly ApplicationDbContext _context;
+
+    public DeleteModel(ApplicationDbContext context)
+    {
+        _context = context;
+    }
+
+    [BindProperty]
+    public Produit Produit { get; set; } = new();
+
+    public async Task<IActionResult> OnGetAsync(int id)
+    {
+        var produit = await _context.Produits
+            .Include(p => p.Categorie)
+            .FirstOrDefaultAsync(p => p.Id == id);
+
+        if (produit is null)
+        {
+            return NotFound();
+        }
+
+        Produit = produit;
+        return Page();
+    }
+
+    public async Task<IActionResult> OnPostAsync()
+    {
+        var produit = await _context.Produits.FindAsync(Produit.Id);
+        if (produit is null)
+        {
+            return NotFound();
+        }
+
+        _context.Produits.Remove(produit);
+        await _context.SaveChangesAsync();
+
+        return RedirectToPage("Index");
+    }
+}

@@ -1,0 +1,12 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace myApp.Areas.Client.Controllers;
+
+[Area("Client")]
+public class ProduitController : Controller
+{
+    public IActionResult Index()
+    {
+        return View();
+    }
+}

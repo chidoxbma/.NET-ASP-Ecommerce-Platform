@@ -1,0 +1,18 @@
+@page
+@model myApp.Areas.Admin.Pages.IndexModel
+@{
+    ViewData["Title"] = "Admin Panel";
+}
+
+<div class="container">
+    <h2 class="mb-4">Admin Panel</h2>
+
+    <div class="list-group">
+        <a asp-page="/Categories/Index" class="list-group-item list-group-item-action">
+            Category Management
+        </a>
+        <a asp-page="/Products/Index" class="list-group-item list-group-item-action">
+            Product Management
+        </a>
+    </div>
+</div>

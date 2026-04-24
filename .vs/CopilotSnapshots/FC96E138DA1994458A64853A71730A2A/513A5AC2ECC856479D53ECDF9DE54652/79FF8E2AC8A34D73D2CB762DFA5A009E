@@ -1,0 +1,60 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using myApp.Data;
+using myApp.Models;
+
+namespace myApp.Areas.Admin.Pages.Products;
+
+[Authorize(Roles = "Admin")]
+public class CreateModel : PageModel
+{
+    private readonly ApplicationDbContext _context;
+
+    public CreateModel(ApplicationDbContext context)
+    {
+        _context = context;
+    }
+
+    [BindProperty]
+    public Produit Produit { get; set; } = new();
+
+    public List<SelectListItem> Categories { get; private set; } = new();
+
+    public async Task OnGetAsync()
+    {
+        await LoadCategoriesAsync();
+    }
+
+    public async Task<IActionResult> OnPostAsync()
+    {
+        if (!ModelState.IsValid)
+        {
+            await LoadCategoriesAsync();
+            return Page();
+        }
+
+        var categoryExists = await _context.Categories.AnyAsync(c => c.Id == Produit.CategorieId);
+        if (!categoryExists)
+        {
+            ModelState.AddModelError("Produit.CategorieId", "Invalid category.");
+            await LoadCategoriesAsync();
+            return Page();
+        }
+
+        _context.Produits.Add(Produit);
+        await _context.SaveChangesAsync();
+
+        return RedirectToPage("Index");
+    }
+
+    private async Task LoadCategoriesAsync()
+    {
+        Categories = await _context.Categories
+            .OrderBy(c => c.Nom)
+            .Select(c => new SelectListItem(c.Nom, c.Id.ToString()))
+            .ToListAsync();
+    }
+}

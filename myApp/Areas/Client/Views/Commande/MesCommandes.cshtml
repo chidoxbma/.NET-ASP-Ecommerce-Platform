@@ -1,0 +1,97 @@
+@model IEnumerable<myApp.Models.Commande>
+
+@{
+    ViewData["Title"] = "Mes Commandes";
+}
+
+<h2>Mes Commandes</h2>
+
+@if (Model is null || !Model.Any())
+{
+    <div class="alert alert-info">You have no orders yet.</div>
+}
+else
+{
+    <table class="table table-striped align-middle">
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Total</th>
+                <th style="width: 240px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var commande in Model)
+            {
+                var collapseId = $"order-{commande.Id}";
+                var statusClass = commande.Statut switch
+                {
+                    myApp.Models.StatutCommande.EnCours => "bg-warning text-dark", // orange
+                    myApp.Models.StatutCommande.Validee => "bg-success",            // green
+                    myApp.Models.StatutCommande.Expediee => "bg-primary",           // blue
+                    _ => "bg-secondary"
+                };
+
+                <tr>
+                    <td>#@commande.Id</td>
+                    <td>@commande.DateCommande</td>
+                    <td><span class="badge @statusClass">@commande.Statut</span></td>
+                    <td>@commande.Total</td>
+                    <td>
+                        <button class="btn btn-outline-secondary btn-sm"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#@collapseId"
+                                aria-expanded="false"
+                                aria-controls="@collapseId">
+                            Toggle Items
+                        </button>
+
+                        <a asp-area="Client"
+                           asp-controller="Commande"
+                           asp-action="ConfirmationCommande"
+                           asp-route-commandeId="@commande.Id"
+                           class="btn btn-outline-primary btn-sm ms-1">
+                            View Details
+                        </a>
+                    </td>
+                </tr>
+
+                <tr class="collapse" id="@collapseId">
+                    <td colspan="5">
+                        @if (commande.LigneCommandes is null || !commande.LigneCommandes.Any())
+                        {
+                            <span class="text-muted">No items.</span>
+                        }
+                        else
+                        {
+                            <table class="table table-sm mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Quantity</th>
+                                        <th>Unit Price</th>
+                                        <th>Subtotal</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var ligne in commande.LigneCommandes)
+                                    {
+                                        <tr>
+                                            <td>@ligne.Produit?.Nom</td>
+                                            <td>@ligne.Quantite</td>
+                                            <td>@ligne.PrixUnitaire</td>
+                                            <td>@(ligne.Quantite * ligne.PrixUnitaire)</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

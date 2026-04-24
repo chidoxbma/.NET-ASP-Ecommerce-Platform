@@ -1,0 +1,5 @@
+﻿@{
+    ViewData["Title"] = "Produits";
+}
+
+<h2>Client - Produits</h2>

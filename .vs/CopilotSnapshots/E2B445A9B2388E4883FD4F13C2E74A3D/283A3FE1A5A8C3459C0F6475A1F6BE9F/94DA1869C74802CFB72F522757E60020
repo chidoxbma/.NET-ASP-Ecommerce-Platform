@@ -1,0 +1,20 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using myApp.Data;
+
+namespace myApp.Areas.Client.Controllers;
+
+[Area("Client")]
+public class ProduitController : Controller
+{
+    private readonly ApplicationDbContext _context;
+
+    public ProduitController(ApplicationDbContext context)
+    {
+        _context = context;
+    }
+
+    public IActionResult Index()
+    {
+        return View();
+    }
+}

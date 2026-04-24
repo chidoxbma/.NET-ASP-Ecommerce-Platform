@@ -1,0 +1,49 @@
+@model myApp.Models.Commande
+
+@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<div class="alert alert-success">
+    <h4 class="mb-1">Thank you for your order!</h4>
+    <p class="mb-0">Your order has been placed successfully.</p>
+</div>
+
+<div class="card mb-3">
+    <div class="card-body">
+        <p><strong>Order Number:</strong> #@Model.Id</p>
+        <p><strong>Order Date:</strong> @Model.DateCommande</p>
+        <p><strong>Delivery Address:</strong> @Model.AdresseLivraison</p>
+        <p><strong>City:</strong> @Model.VilleLivraison</p>
+    </div>
+</div>
+
+<h5>Ordered Items</h5>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Subtotal</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ligne in Model.LigneCommandes)
+        {
+            <tr>
+                <td>@ligne.Produit?.Nom</td>
+                <td>@ligne.Quantite</td>
+                <td>@ligne.PrixUnitaire</td>
+                <td>@(ligne.Quantite * ligne.PrixUnitaire)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h4>Total: @Model.Total</h4>
+
+<div class="mt-3 d-flex gap-2">
+    <a asp-area="Client" asp-controller="Commande" asp-action="MesCommandes" class="btn btn-primary">View My Orders</a>
+    <a asp-area="Client" asp-controller="Produit" asp-action="Index" class="btn btn-outline-secondary">Continue Shopping</a>
+</div>

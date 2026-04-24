@@ -1,0 +1,28 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using myApp.Data;
+using myApp.Models;
+
+namespace myApp.Areas.Admin.Pages.Products;
+
+[Authorize(Roles = "Admin")]
+public class IndexModel : PageModel
+{
+    private readonly ApplicationDbContext _context;
+
+    public IndexModel(ApplicationDbContext context)
+    {
+        _context = context;
+    }
+
+    public IList<Produit> Produits { get; private set; } = new List<Produit>();
+
+    public async Task OnGetAsync()
+    {
+        Produits = await _context.Produits
+            .Include(p => p.Categorie)
+            .OrderBy(p => p.Nom)
+            .ToListAsync();
+    }
+}
